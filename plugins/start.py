@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated
 
 import pyrogram.utils
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1002186827595
 from bot import Bot
 from config import ADMINS, FORCE_MSG, START_MSG, CUSTOM_CAPTION, DISABLE_CHANNEL_BUTTON, PROTECT_CONTENT
 from helper_func import subscribed, encode, decode, get_messages
