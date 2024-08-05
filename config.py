@@ -22,18 +22,18 @@ API_HASH = os.environ.get("API_HASH", "61f150cdca64b2916fa499d107393140")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002177703016"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5787502520"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6973938222"))
 
 #Port
-PORT = os.environ.get("PORT", "3060")
+PORT = os.environ.get("PORT", "3061")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Dev_1:Dev_1@swopan.z77tekr.mongodb.net/?retryWrites=true&w=majority&appName=Swopan")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002231176843"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002136568241"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002207077357"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002177314951"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
